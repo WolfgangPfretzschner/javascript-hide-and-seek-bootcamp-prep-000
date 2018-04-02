@@ -29,5 +29,5 @@ function deepestChild(){
   console.log(bar)
   var res  = document.querySelector(bar)
   return res
-
+}
 deepestChild();
