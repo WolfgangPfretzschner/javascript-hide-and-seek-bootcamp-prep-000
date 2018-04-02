@@ -30,4 +30,3 @@ function deepestChild(){
   var res  = document.querySelector(bar)
   return res
 }
-deepestChild();
