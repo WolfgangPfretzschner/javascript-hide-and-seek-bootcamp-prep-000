@@ -20,7 +20,7 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  var bar = ["grand-node"]
+  var bar = ["#grand-node"]
   const foo = document.getElementById("grand-node").querySelectorAll("div")
   for (let i = 0; i < foo.length; i++) {
     bar.push("div")
