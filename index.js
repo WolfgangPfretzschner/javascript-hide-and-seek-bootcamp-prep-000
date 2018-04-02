@@ -26,5 +26,7 @@ function deepestChild(){
     bar.push("div")
   }
   var res  = document.querySelector(bar)
+  console.log(res)
   return res
 }
+deepestChild();
