@@ -23,7 +23,7 @@ function deepestChild(){
   var bar = []
   const foo = document.getElementById("grand-node").querySelectorAll("div")
   for (let i = 0; i < foo.length; i++) {
-    bar.push(".querySelector('div')")
+    bar.push("div")
   }
-  return foo.bar.join(',')
+  return foo.bar.join(" ")
 }
