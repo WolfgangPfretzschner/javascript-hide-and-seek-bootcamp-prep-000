@@ -28,9 +28,6 @@ function deepestChild(){
   bar = bar.join(" ").toString()
   console.log(bar)
   var res  = document.querySelector(bar)
-  console.log(res)
-  var x = document.getElementById("output");
-  x.innerHTML = res
-}
+  return res
 
 deepestChild();
